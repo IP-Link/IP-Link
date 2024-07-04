@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #7600F2, #AA0CE7);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url('../img/citypop.png');
+    background-size: cover; /* Ajusta la imagen para cubrir toda la sección */
+    background-position: center; /* Centra la imagen */
+    height: 80vh; /* Ajusta la altura según el tamaño de la pantalla */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+    color: #fff; /* Color del texto */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.servicio {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+footer {
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .iconos {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+footer p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Estilos para Matrix */
+.matrix-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Asegura que esté detrás de otros contenidos */
+}
+
+#matrixCanvas {
+    background: transparent;
+}
